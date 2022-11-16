@@ -1,10 +1,6 @@
-sk = int(input("Ievadi skaitli (0-beigt): "))
-summa = 0
-skaits = 0
-while sk != 0:
-  Summa += sk
-  skaits += 1
-  sk = int(input("Tevadi skaitli (0-beigt): "))
-print("Visu levádito skaitlu aritmetiskais viderais ir", summa / skaits)
-#tests: 4 ; 6 ; 8 ; 0
-#izvade: 6.0
+sk = int(input("Ievadi skaitli:"))
+while sk > 0:
+  print(sk)
+  sk -= 1
+#tests: 6
+#izvade: 6; 5; 4; 3; 2 ; 1
